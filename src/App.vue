@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <div class="title">hello vue</div>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped lang="stylus">
+.title
+  color pink
 </style>
